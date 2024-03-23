@@ -1,0 +1,51 @@
+$outline: black;
+$bgColor: rgb(107, 220, 238);
+
+$shell: #eddd6e;
+$shellLight: #fbf0a0;
+$shellDark: #dbb354;
+$banana: #fff9c5;
+$bananaDark: #f0e89f;
+$stem: #87be61;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vmin;
+}
+
+.pixel-container {
+  width: 40em;
+  height: 54em;
+  background-color: $bgColor;
+}
+
+.pixel {
+  width: 1em;
+  height: 1em;
+  background-color: $bgColor;
+  transition: box-shadow 300ms ease-in-out;
+  box-shadow: 20em 1em $outline, 21em 1em $outline, 22em 1em $outline,
+    23em 1em $outline, 20em 2em $outline, 21em 2em $stem, 22em 2em $stem,
+    23em 2em $outline, 21em 3em $outline, 22em 3em $stem, 23em 3em $outline,
+    24em 3em $outline, 25em 3em $outline, 22em 4em $outline,
+    23em 4em $shellLight, 24em 4em $shellDark, 25em 4em $shellDark,
+    26em 4em $outline, 27em 4em $outline;
+}
+
+.pixel-container:hover .pixel {
+  box-shadow: 20em 1em $bgColor, 21em 1em $bgColor, 22em 1em $bgColor,
+    23em 1em $bgColor, 20em 2em $bgColor, 21em 2em $bgColor, 22em 2em $bgColor,
+    23em 2em $bgColor, 21em 3em $bgColor, 22em 3em $bgColor, 23em 3em $outline,
+    24em 3em $outline, 25em 3em $outline, 22em 4em $outline, 23em 4em $banana,
+    24em 4em $banana, 25em 4em $banana, 26em 4em $outline, 27em 4em $outline;
+}
+
+.pixel-container:active .pixel {
+  box-shadow: 20em 1em $bgColor, 21em 1em $bgColor, 22em 1em $bgColor,
+    23em 1em $bgColor, 20em 2em $bgColor, 21em 2em $bgColor, 22em 2em $bgColor,
+    23em 2em $bgColor, 21em 3em $bgColor, 22em 3em $bgColor, 23em 3em $outline,
+    24em 3em $outline, 25em 3em $outline, 22em 4em $outline, 23em 4em $banana,
+    24em 4em $outline, 25em 4em $banana, 26em 4em $outline, 27em 4em $outline;
+}

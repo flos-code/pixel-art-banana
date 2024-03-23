@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vmin;
+}
+
+.pixel-container {
+  width: 40em;
+  height: 54em;
+  background-color: rgb(107, 220, 238);
+}
+
+.pixel {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(107, 220, 238);
+  transition: box-shadow 300ms ease-in-out;
+  box-shadow: 20em 1em black, 21em 1em black, 22em 1em black, 23em 1em black, 20em 2em black, 21em 2em #87be61, 22em 2em #87be61, 23em 2em black, 21em 3em black, 22em 3em #87be61, 23em 3em black, 24em 3em black, 25em 3em black, 22em 4em black, 23em 4em #fbf0a0, 24em 4em #dbb354, 25em 4em #dbb354, 26em 4em black, 27em 4em black;
+}
+
+.pixel-container:hover .pixel {
+  box-shadow: 20em 1em rgb(107, 220, 238), 21em 1em rgb(107, 220, 238), 22em 1em rgb(107, 220, 238), 23em 1em rgb(107, 220, 238), 20em 2em rgb(107, 220, 238), 21em 2em rgb(107, 220, 238), 22em 2em rgb(107, 220, 238), 23em 2em rgb(107, 220, 238), 21em 3em rgb(107, 220, 238), 22em 3em rgb(107, 220, 238), 23em 3em black, 24em 3em black, 25em 3em black, 22em 4em black, 23em 4em #fff9c5, 24em 4em #fff9c5, 25em 4em #fff9c5, 26em 4em black, 27em 4em black;
+}
+
+.pixel-container:active .pixel {
+  box-shadow: 20em 1em rgb(107, 220, 238), 21em 1em rgb(107, 220, 238), 22em 1em rgb(107, 220, 238), 23em 1em rgb(107, 220, 238), 20em 2em rgb(107, 220, 238), 21em 2em rgb(107, 220, 238), 22em 2em rgb(107, 220, 238), 23em 2em rgb(107, 220, 238), 21em 3em rgb(107, 220, 238), 22em 3em rgb(107, 220, 238), 23em 3em black, 24em 3em black, 25em 3em black, 22em 4em black, 23em 4em #fff9c5, 24em 4em black, 25em 4em #fff9c5, 26em 4em black, 27em 4em black;
+}/*# sourceMappingURL=style.css.map */
