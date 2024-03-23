@@ -27,7 +27,7 @@ body {
   min-height: 100vmin;
 }
 
-.pixel-container {
+.banana {
   width: 39em;
   height: 55em;
   background-color: $bgColor;
@@ -40,13 +40,11 @@ body {
   &:active {
     cursor: not-allowed;
   }
-
 }
 
 .pixel {
   width: 1em;
   height: 1em;
-  background-color: $bgColor;
   transition: box-shadow 300ms ease-in-out;
   box-shadow: 
     20em 1em $outline, 21em 1em $outline, 22em 1em $outline, 23em 1em $outline, 
@@ -104,7 +102,7 @@ body {
     2em 53em $outline, 3em 53em $outline;
 }
 
-.pixel-container:hover .pixel {
+.banana:hover .pixel {
   box-shadow: 
     20em 1em $bgColor, 21em 1em $bgColor, 22em 1em $bgColor, 23em 1em $bgColor, 
     20em 2em $bgColor, 21em 2em $bgColor, 22em 2em $bgColor, 23em 2em $bgColor, 
@@ -161,7 +159,7 @@ body {
     2em 53em $outline, 3em 53em $outline;
 }
 
-.pixel-container:active .pixel {
+.banana:active .pixel {
   box-shadow: 
   20em 1em $bgColor, 21em 1em $bgColor, 22em 1em $bgColor, 23em 1em $bgColor, 
   20em 2em $bgColor, 21em 2em $bgColor, 22em 2em $bgColor, 23em 2em $bgColor, 
