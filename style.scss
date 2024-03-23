@@ -30,22 +30,61 @@ body {
     23em 1em $outline, 20em 2em $outline, 21em 2em $stem, 22em 2em $stem,
     23em 2em $outline, 21em 3em $outline, 22em 3em $stem, 23em 3em $outline,
     24em 3em $outline, 25em 3em $outline, 22em 4em $outline,
-    23em 4em $shellLight, 24em 4em $shellDark, 25em 4em $shellDark,
-    26em 4em $outline, 27em 4em $outline;
+    23em 4em $shellLight, 24em 4em $shell, 25em 4em $shell,
+    26em 4em $outline, 27em 4em $outline, 
+    
+    21em 5em $outline, 22em 5em $shellLight, 23em 5em $shell, 24em 5em $shell, 25em 5em $shell, 26em 5em $shell, 27em 5em $shellDark, 28em 5em $outline,
+    20em 6em $outline, 21em 6em $shellLight, 22em 6em $shellLight, 23em 6em $shell, 24em 6em $shell, 25em 6em $shell, 26em 6em $shell, 27em 6em $shell, 28em 6em $shellDark, 29em 6em $outline,  
+    20em 7em $outline, 21em 7em $shellLight, 22em 7em $shellLight, 23em 7em $shell, 24em 7em $shell, 25em 7em $shell, 26em 7em $shell, 27em 7em $shell, 28em 7em $shellDark, 29em 7em $shellDark, 30em 7em $outline,  
+    20em 8em $outline, 21em 8em $shellLight, 22em 8em $shellLight, 23em 8em $shell, 24em 8em $shell, 25em 8em $shell, 26em 8em $shell, 27em 8em $shell, 28em 8em $shellDark, 29em 8em $shellDark, 30em 8em $outline,  
+    19em 9em $outline, 20em 9em $shellLight, 21em 9em $shellLight, 22em 9em $shellLight, 23em 9em $shell, 24em 9em $shell, 25em 9em $shell, 26em 9em $shell, 27em 9em $shell, 28em 9em $shellDark, 29em 9em $shellDark, 30em 9em $shellDark, 31em 9em $outline, 
+    19em 10em $outline, 20em 10em $shellLight, 21em 10em $shellLight, 22em 10em $shellLight, 23em 10em $shellLight, 24em 10em $shell, 25em 10em $shell, 26em 10em $shell, 27em 10em $shell, 28em 10em $shellDark, 29em 10em $shellDark, 30em 10em $shellDark, 31em 10em $outline, 
+    19em 11em $outline, 20em 11em $shellLight, 21em 11em $shellLight, 22em 11em $shellLight, 23em 11em $shellLight, 24em 11em $shell, 25em 11em $shell, 26em 11em $shell, 27em 11em $shell, 28em 11em $shell, 29em 11em $shellDark, 30em 11em $shellDark, 31em 11em $shellDark, 32em 11em $outline, 
+    19em 12em $outline, 20em 12em $shellLight, 21em 12em $shellLight, 22em 12em $shellLight, 23em 12em $shellLight, 24em 12em $shell, 25em 12em $shell, 26em 12em $shell, 27em 12em $shell, 28em 12em $shell, 29em 12em $shellDark, 30em 12em $shellDark, 31em 12em $shellDark, 32em 12em $outline,
+    19em 13em $outline, 20em 13em $shellLight, 21em 13em $shellLight, 22em 13em $shellLight, 23em 13em $shellLight, 24em 13em $shell, 25em 13em $shell, 26em 13em $shell, 27em 13em $shell, 28em 13em $shell, 29em 13em $shellDark, 30em 13em $shellDark, 31em 13em $shellDark, 32em 13em $outline,
+    19em 14em $outline, 20em 14em $shellLight, 21em 14em $shellLight, 22em 14em $shellLight, 23em 14em $shellLight, 24em 14em $shell, 25em 14em $shell, 26em 14em $shell, 27em 14em $shell, 28em 14em $shell, 29em 14em $shellDark, 30em 14em $shellDark, 31em 14em $shellDark, 32em 14em $outline,
+    19em 15em $outline, 20em 15em $shellLight, 21em 15em $shellLight, 22em 15em $shellLight, 23em 15em $shellLight, 24em 15em $shell, 25em 15em $shell, 26em 15em $shell, 27em 15em $shell, 28em 15em $shell, 29em 15em $shellDark, 30em 15em $shellDark, 31em 15em $shellDark, 32em 15em $shellDark, 33em 15em $outline,
+    19em 16em $outline, 20em 16em $shellLight, 21em 16em $shellLight, 22em 16em $shellLight, 23em 16em $shellLight, 24em 16em $shell, 25em 16em $shell, 26em 16em $shell, 27em 16em $shell, 28em 16em $shell, 29em 16em $shellDark, 30em 16em $shellDark, 31em 16em $shellDark, 32em 16em $shellDark, 33em 16em $outline,
+    19em 17em $outline, 20em 17em $shellLight, 21em 17em $shellLight, 22em 17em $shellLight, 23em 17em $shellLight, 24em 17em $shell, 25em 17em $shell, 26em 17em $shell, 27em 17em $shell, 28em 17em $shell, 29em 17em $shellDark, 30em 17em $shellDark, 31em 17em $shellDark, 32em 17em $shellDark, 33em 17em $outline,
+    19em 18em $outline, 20em 18em $shellLight, 21em 18em $shellLight, 22em 18em $shellLight, 23em 18em $shellLight, 24em 18em $shell, 25em 18em $shell, 26em 18em $shell, 27em 18em $shell, 28em 18em $shell, 29em 18em $shellDark, 30em 18em $shellDark, 31em 18em $shellDark, 32em 18em $shellDark, 33em 18em $outline,
+    19em 19em $outline, 20em 19em $shellLight, 21em 19em $shellLight, 22em 19em $shellLight, 23em 19em $shellLight, 24em 19em $shell, 25em 19em $shell, 26em 19em $shell, 27em 19em $shell, 28em 19em $shell, 29em 19em $shellDark, 30em 19em $shellDark, 31em 19em $shellDark, 32em 19em $shellDark, 33em 19em $outline,
+    19em 20em $outline, 20em 20em $shellLight, 21em 20em $shellLight, 22em 20em $shellLight, 23em 20em $shellLight, 24em 20em $shell, 25em 20em $shell, 26em 20em $shell, 27em 20em $shell, 28em 20em $shell, 29em 20em $shellDark, 30em 20em $shellDark, 31em 20em $shellDark, 32em 20em $shellDark, 33em 20em $outline,
+    19em 21em $outline, 20em 21em $shellLight, 21em 21em $shellLight, 22em 21em $shellLight, 23em 21em $shellLight, 24em 21em $shell, 25em 21em $shell, 26em 21em $shell, 27em 21em $shell, 28em 21em $shell, 29em 21em $shellDark, 30em 21em $shellDark, 31em 21em $shellDark, 32em 21em $shellDark, 33em 21em $outline,
+    19em 22em $outline, 20em 22em $shellLight, 21em 22em $shellLight, 22em 22em $shellLight, 23em 22em $shellLight, 24em 22em $shell, 25em 22em $shell, 26em 22em $shell, 27em 22em $shell, 28em 22em $shell, 29em 22em $shellDark, 30em 22em $shellDark, 31em 22em $shellDark, 32em 22em $shellDark, 33em 22em $outline,
+    19em 23em $outline, 20em 23em $shellLight, 21em 23em $shellLight, 22em 23em $shellLight, 23em 23em $shellLight, 24em 23em $shell, 25em 23em $shell, 26em 23em $shell, 27em 23em $shell, 28em 23em $shellDark, 29em 23em $shellDark, 30em 23em $shellDark, 31em 23em $shellDark, 32em 23em $shellDark, 33em 23em $outline,
+    19em 24em $outline, 20em 24em $shellLight, 21em 24em $shellLight, 22em 24em $shellLight, 23em 24em $shell, 24em 24em $shell, 25em 24em $shell, 26em 24em $shell, 27em 24em $shell, 28em 24em $shellDark, 29em 24em $shellDark, 30em 24em $shellDark, 31em 24em $shellDark, 32em 24em $shellDark, 33em 24em $outline,
+    19em 25em $outline, 20em 25em $shellLight, 21em 25em $shellLight, 22em 25em $shellLight, 23em 25em $shell, 24em 25em $shell, 25em 25em $shell, 26em 25em $shell, 27em 25em $shell, 28em 25em $shellDark, 29em 25em $shellDark, 30em 25em $shellDark, 31em 25em $shellDark, 32em 25em $outline, 
+    18em 26em $outline, 19em 26em $shellLight, 20em 26em $shellLight, 21em 26em $shellLight, 22em 26em $shellLight, 23em 26em $shell, 24em 26em $shell, 25em 26em $shell, 26em 26em $shell, 27em 26em $shell, 28em 26em $shellDark, 29em 26em $shellDark, 30em 26em $shellDark, 31em 26em $shellDark, 32em 26em $outline, 
+    18em 27em $outline, 19em 27em $shellLight, 20em 27em $shellLight, 21em 27em $shellLight, 22em 27em $shellLight, 23em 27em $shell, 24em 27em $shell, 25em 27em $shell, 26em 27em $shell, 27em 27em $shellDark, 28em 27em $shellDark, 29em 27em $shellDark, 30em 27em $shellDark, 31em 27em $shellDark, 32em 27em $outline, 
+    18em 28em $outline, 19em 28em $shellLight, 20em 28em $shellLight, 21em 28em $shellLight, 22em 28em $shell, 23em 28em $shell, 24em 28em $shell, 25em 28em $shell, 26em 28em $shell, 27em 28em $shellDark, 28em 28em $shellDark, 29em 28em $shellDark, 30em 28em $shellDark, 31em 28em $shellDark, 32em 28em $outline, 
+    18em 29em $outline, 19em 29em $shellLight, 20em 29em $shellLight, 21em 29em $shellLight, 22em 29em $shell, 23em 29em $shell, 24em 29em $shell, 25em 29em $shell, 26em 29em $shell, 27em 29em $shellDark, 28em 29em $shellDark, 29em 29em $shellDark, 30em 29em $shellDark, 31em 29em $outline,
+    17em 30em $outline, 18em 30em $shellLight, 19em 30em $shellLight, 20em 30em $shellLight, 21em 30em $shellLight, 22em 30em $shell, 23em 30em $shell, 24em 30em $shell, 25em 30em $shell, 26em 30em $shellDark, 27em 30em $shellDark, 28em 30em $shellDark, 29em 30em $shellDark, 30em 30em $shellDark, 31em 30em $outline,
+    17em 31em $outline, 18em 31em $shellLight, 19em 31em $shellLight, 20em 31em $shellLight, 21em 31em $shell, 22em 31em $shell, 23em 31em $shell, 24em 31em $shell, 25em 31em $shell, 26em 31em $shellDark, 27em 31em $shellDark, 28em 31em $shellDark, 29em 31em $shellDark, 30em 31em $shellDark, 31em 31em $outline,
+    16em 32em $outline, 17em 32em $shellLight, 18em 32em $shellLight, 19em 32em $shellLight, 20em 32em $shellLight, 21em 32em $shell, 22em 32em $shell, 23em 32em $shell, 24em 32em $shell, 25em 32em $shell, 26em 32em $shellDark, 27em 32em $shellDark, 28em 32em $shellDark, 29em 32em $shellDark, 30em 32em $outline, 
+    16em 33em $outline, 17em 33em $shellLight, 18em 33em $shellLight, 19em 33em $shellLight, 20em 33em $shell, 21em 33em $shell, 22em 33em $shell, 23em 33em $shell, 24em 33em $shell, 25em 33em $shellDark, 26em 33em $shellDark, 27em 33em $shellDark, 28em 33em $shellDark, 29em 33em $shellDark, 30em 33em $outline, 
+    15em 34em $outline, 16em 34em $shellLight, 17em 34em $shellLight, 18em 34em $shellLight, 19em 34em $shell, 20em 34em $shell, 21em 34em $shell, 22em 34em $shell, 23em 34em $shell, 24em 34em $shell, 25em 34em $shellDark, 26em 34em $shellDark, 27em 34em $shellDark, 28em 34em $shellDark, 29em 34em $shellDark, 30em 34em $outline, 
+    14em 35em $outline, 15em 35em $shellLight, 16em 35em $shellLight, 17em 35em $shellLight, 18em 35em $shell, 19em 35em $shell, 20em 35em $shell, 21em 35em $shell, 22em 35em $shell, 23em 35em $shell, 24em 35em $shellDark, 25em 35em $shellDark, 26em 35em $shellDark, 27em 35em $shellDark, 28em 35em $shellDark, 29em 35em $outline,
+    13em 36em $outline, 14em 36em $shellLight, 15em 36em $shellLight, 16em 36em $shellLight, 17em 36em $shell, 18em 36em $shell, 19em 36em $shell, 20em 36em $shell, 21em 36em $shell, 22em 36em $shell, 23em 36em $shellDark, 24em 36em $shellDark, 25em 36em $shellDark, 26em 36em $shellDark, 27em 36em $shellDark, 28em 36em $shellDark, 29em 36em $outline,
+    12em 37em $outline, 13em 37em $shellLight, 14em 37em $shellLight, 15em 37em $shellLight, 16em 37em $shell, 17em 37em $shell, 18em 37em $shell, 19em 37em $shell, 20em 37em $shell, 21em 37em $shell, 22em 37em $shellDark, 23em 37em $shellDark, 24em 37em $shellDark, 25em 37em $shellDark, 26em 37em $shellDark, 27em 37em $shellDark, 28em 37em $outline,
+
+
+
+
+    ;
 }
 
-.pixel-container:hover .pixel {
-  box-shadow: 20em 1em $bgColor, 21em 1em $bgColor, 22em 1em $bgColor,
-    23em 1em $bgColor, 20em 2em $bgColor, 21em 2em $bgColor, 22em 2em $bgColor,
-    23em 2em $bgColor, 21em 3em $bgColor, 22em 3em $bgColor, 23em 3em $outline,
-    24em 3em $outline, 25em 3em $outline, 22em 4em $outline, 23em 4em $banana,
-    24em 4em $banana, 25em 4em $banana, 26em 4em $outline, 27em 4em $outline;
-}
+// .pixel-container:hover .pixel {
+//   box-shadow: 20em 1em $bgColor, 21em 1em $bgColor, 22em 1em $bgColor,
+//     23em 1em $bgColor, 20em 2em $bgColor, 21em 2em $bgColor, 22em 2em $bgColor,
+//     23em 2em $bgColor, 21em 3em $bgColor, 22em 3em $bgColor, 23em 3em $outline,
+//     24em 3em $outline, 25em 3em $outline, 22em 4em $outline, 23em 4em $banana,
+//     24em 4em $banana, 25em 4em $banana, 26em 4em $outline, 27em 4em $outline;
+// }
 
-.pixel-container:active .pixel {
-  box-shadow: 20em 1em $bgColor, 21em 1em $bgColor, 22em 1em $bgColor,
-    23em 1em $bgColor, 20em 2em $bgColor, 21em 2em $bgColor, 22em 2em $bgColor,
-    23em 2em $bgColor, 21em 3em $bgColor, 22em 3em $bgColor, 23em 3em $outline,
-    24em 3em $outline, 25em 3em $outline, 22em 4em $outline, 23em 4em $banana,
-    24em 4em $outline, 25em 4em $banana, 26em 4em $outline, 27em 4em $outline;
-}
+// .pixel-container:active .pixel {
+//   box-shadow: 20em 1em $bgColor, 21em 1em $bgColor, 22em 1em $bgColor,
+//     23em 1em $bgColor, 20em 2em $bgColor, 21em 2em $bgColor, 22em 2em $bgColor,
+//     23em 2em $bgColor, 21em 3em $bgColor, 22em 3em $bgColor, 23em 3em $outline,
+//     24em 3em $outline, 25em 3em $outline, 22em 4em $outline, 23em 4em $banana,
+//     24em 4em $outline, 25em 4em $banana, 26em 4em $outline, 27em 4em $outline;
+// }
