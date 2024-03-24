@@ -99,7 +99,10 @@ body {
     1em 50em $outline, 2em 50em $outline, 3em 50em $stem, 4em 50em $shellDark, 5em 50em $shellDark, 6em 50em $shellDark, 7em 50em $shellDark, 8em 50em $shellDark, 9em 50em $shellDark, 10em 50em $shellDark, 11em 50em $shellDark, 12em 50em $shellDark, 13em 50em $shellDark, 14em 50em $outline, 15em 50em $outline, 
     1em 51em $outline, 2em 51em $stem, 3em 51em $stem, 4em 51em $stem, 5em 51em $shellDark, 6em 51em $shellDark, 7em 51em $shellDark, 8em 51em $shellDark, 9em 51em $shellDark, 10em 51em $shellDark, 11em 51em $outline, 12em 51em $outline, 13em 51em $outline,
     1em 52em $outline, 2em 52em $stem, 3em 52em $stem, 4em 52em $outline, 5em 52em $outline, 6em 52em $outline, 7em 52em $outline, 8em 52em $outline, 9em 52em $outline, 10em 52em $outline,
-    2em 53em $outline, 3em 53em $outline;
+    2em 53em $outline, 3em 53em $outline,;
+
+
+
 }
 
 .banana:hover .pixel {
@@ -216,4 +219,116 @@ body {
   2em 53em $bgColor, 3em 53em $bgColor;
 }
 
+.animation {
+  width: 1em;
+  height: 1em;
+  transition: box-shadow 100ms ease-in-out;
+  animation: colorChange 600ms infinite;
+}
+
+
+@keyframes colorChange {
+  0%, 100% {
+    box-shadow: 
+    1em 1em $banana, 2em 1em $banana, 3em 1em $banana,
+    1em 2em $banana, 4em 2em $banana, 
+    1em 3em $banana, 2em 3em $banana, 3em 3em $banana,
+    1em 4em $banana, 4em 4em $banana,
+    1em 5em $banana, 2em 5em $banana, 3em 5em $banana,
+    
+    2em 7em $banana, 3em 7em $banana,
+    1em 8em $banana, 3em 8em $banana, 
+    1em 9em $banana, 3em 9em $banana,  
+    2em 10em $banana, 3em 10em $banana, 
+
+    1em 12em $banana, 2em 12em $banana, 3em 12em $banana,
+    1em 13em $banana, 4em 13em $banana,
+    1em 14em $banana, 4em 14em $banana,
+    1em 15em $banana, 4em 15em $banana,
+
+    2em 17em $banana, 3em 17em $banana,
+    1em 18em $banana, 3em 18em $banana, 
+    1em 19em $banana, 3em 19em $banana,  
+    2em 20em $banana, 3em 20em $banana, 
+
+    1em 22em $banana, 2em 22em $banana, 3em 22em $banana,
+    1em 23em $banana, 4em 23em $banana,
+    1em 24em $banana, 4em 24em $banana,
+    1em 25em $banana, 4em 25em $banana,
+
+    2em 27em $banana, 3em 27em $banana,
+    1em 28em $banana, 3em 28em $banana, 
+    1em 29em $banana, 3em 29em $banana,  
+    2em 30em $banana, 3em 30em $banana,
+    ;
+  }
+  33% {
+    box-shadow: 
+    1em 1em $sweatDark, 2em 1em $sweatDark, 3em 1em $sweatDark,
+    1em 2em $sweatDark, 4em 2em $sweatDark, 
+    1em 3em $sweatDark, 2em 3em $sweatDark, 3em 3em $sweatDark,
+    1em 4em $sweatDark, 4em 4em $sweatDark,
+    1em 5em $sweatDark, 2em 5em $sweatDark, 3em 5em $sweatDark,
+    
+    2em 7em $sweatDark, 3em 7em $sweatDark,
+    1em 8em $sweatDark, 3em 8em $sweatDark, 
+    1em 9em $sweatDark, 3em 9em $sweatDark,  
+    2em 10em $sweatDark, 3em 10em $sweatDark, 
+
+    1em 12em $sweatDark, 2em 12em $sweatDark, 3em 12em $sweatDark,
+    1em 13em $sweatDark, 4em 13em $sweatDark,
+    1em 14em $sweatDark, 4em 14em $sweatDark,
+    1em 15em $sweatDark, 4em 15em $sweatDark,
+
+    2em 17em $sweatDark, 3em 17em $sweatDark,
+    1em 18em $sweatDark, 3em 18em $sweatDark, 
+    1em 19em $sweatDark, 3em 19em $sweatDark,  
+    2em 20em $sweatDark, 3em 20em $sweatDark, 
+
+    1em 22em $sweatDark, 2em 22em $sweatDark, 3em 22em $sweatDark,
+    1em 23em $sweatDark, 4em 23em $sweatDark,
+    1em 24em $sweatDark, 4em 24em $sweatDark,
+    1em 25em $sweatDark, 4em 25em $sweatDark,
+
+    2em 27em $sweatDark, 3em 27em $sweatDark,
+    1em 28em $sweatDark, 3em 28em $sweatDark, 
+    1em 29em $sweatDark, 3em 29em $sweatDark,  
+    2em 30em $sweatDark, 3em 30em $sweatDark,
+    ;
+  }
+  66% {
+    box-shadow: 
+    1em 1em $stem, 2em 1em $stem, 3em 1em $stem,
+    1em 2em $stem, 4em 2em $stem, 
+    1em 3em $stem, 2em 3em $stem, 3em 3em $stem,
+    1em 4em $stem, 4em 4em $stem,
+    1em 5em $stem, 2em 5em $stem, 3em 5em $stem,
+    
+    2em 7em $stem, 3em 7em $stem,
+    1em 8em $stem, 3em 8em $stem, 
+    1em 9em $stem, 3em 9em $stem,  
+    2em 10em $stem, 3em 10em $stem, 
+
+    1em 12em $stem, 2em 12em $stem, 3em 12em $stem,
+    1em 13em $stem, 4em 13em $stem,
+    1em 14em $stem, 4em 14em $stem,
+    1em 15em $stem, 4em 15em $stem,
+
+    2em 17em $stem, 3em 17em $stem,
+    1em 18em $stem, 3em 18em $stem, 
+    1em 19em $stem, 3em 19em $stem,  
+    2em 20em $stem, 3em 20em $stem, 
+
+    1em 22em $stem, 2em 22em $stem, 3em 22em $stem,
+    1em 23em $stem, 4em 23em $stem,
+    1em 24em $stem, 4em 24em $stem,
+    1em 25em $stem, 4em 25em $stem,
+
+    2em 27em $stem, 3em 27em $stem,
+    1em 28em $stem, 3em 28em $stem, 
+    1em 29em $stem, 3em 29em $stem,  
+    2em 30em $stem, 3em 30em $stem,
+    ;
+  }
+}
 
